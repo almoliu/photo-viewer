@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">SmartPic</string>
+
+    <string name="photos_title">photos</string>
+    <string name="settings_title">settings</string>
+    <string name="help_title">help</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+
+    <string name="login_in">login/register</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="selected_toolbar_title">choose your pictures</string>
+
+    <string name="delete_menu_title">Delete device copy</string>
+    <string name="slideshow_menu_title">Slideshow</string>
+    <string name="useas_menu_title">Use as</string>
+    <string name="print_menu_title">Print</string>
+
+</resources>
