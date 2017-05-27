@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeNOActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/TransActionBar</item>
+        <item name="actionBarStyle">@style/TransActionBar</item>
+    </style>
+
+    <style name="TransBarAppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/TransActionBar</item>
+        <item name="background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+
+
+<!--
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+-->
+        <item name="android:background">@null</item>
+        <item name="android:actionBarStyle">@style/TransActionBar</item>
+    </style>
+    
+    <style name="TransActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@android:color/transparent</item>
+        <item name="backgroundStacked">@android:color/holo_green_dark</item>
+        <item name="backgroundSplit">@android:color/transparent</item>
+        <item name="titleTextStyle">@style/ActionBarTitleTrans</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- Support library compatibility -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundSplit">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+        <item name="android:backgroundStacked">@android:color/holo_green_dark</item>
+        <item name="android:actionBarSize">?android:attr/actionBarSize</item>
+    </style>
+    
+    <style name="ActionBarTitleTrans" parent = "@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/primary_text_light_nodisable</item>
+    </style>
+
+    <style name="ThemeDialogFullScreen" parent="@style/Base.Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

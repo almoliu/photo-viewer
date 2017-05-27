@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartPic</string>
+    <string name="photos_title">照片</string>
+    <string name="login_in">登录/注册</string>
+    <string name="settings_title">设置</string>
+    <string name="help_title">帮助与反馈</string>
+    <string name="selected_toolbar_title">选择照片</string>
+    <string name="delete_menu_title">删除设备上的副本</string>
+    <string name="print_menu_title">打印</string>
+    <string name="slideshow_menu_title">幻灯片演示</string>
+    <string name="useas_menu_title">设为</string>
+</resources>
